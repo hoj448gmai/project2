@@ -1,0 +1,28 @@
+.header {
+  padding: 22px 0;
+  border-bottom: 2px solid grey;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  column-gap: 50px;
+  list-style-type: none;
+}
+.header__link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(31, 46, 53, 0.8);
+}
+.header__icons {
+  display: flex;
+  column-gap: 24px;
+}
+
+/*# sourceMappingURL=header.css.map */

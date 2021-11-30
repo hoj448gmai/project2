@@ -1,0 +1,25 @@
+.burger {
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  .header__nav {
+    justify-content: center;
+  }
+
+  .header__menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=burger.css.map */

@@ -1,0 +1,97 @@
+.contact{
+  padding: 36px 0 13px;
+  &__row{
+    display: flex;
+    column-gap: 47px;
+    align-items: flex-end;
+  }
+  &__title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+    margin: 20px 0 8px;
+  }
+  &__description {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+  }
+
+  &__phone{
+    &-title{
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #263238;
+      margin-bottom: 15px;
+    }
+    &-menu{
+      list-style-type: none;
+    }
+    &-link{
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 149.19%;
+      color: #263238;
+
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding: 25px 0 13px;
+    .contact__row{
+      margin: 0 0 20px 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact__title {
+    font-size: 17px;
+  }
+  .contact__description {
+    font-size: 15px;
+  }
+  .contact__phone-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact__title {
+    font-size: 15px;
+    margin: 10px 0 8px;
+  }
+  .contact__description {
+    font-size: 12px;
+  }
+  .contact__phone-title {
+    font-size: 18px;
+    line-height: 5px;
+  }
+  .contact__phone-link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  .contact__title{
+    font-size: 12px;
+  }
+  .contact__img{
+    width: 50%;
+  }
+}
